@@ -1,0 +1,6 @@
+jump	jump	hands-up	jump	hands-up	wave	jump	jump	wave	wave
+jump	hands-up	wave	jump	jump	hands-up	hands-up	wave	jump	jump
+jump	hands-up	hands-up	wave	hands-up	jump	wave	hands-up	jump	wave
+jump	jump	hands-up	wave	wave	wave	jump	wave	hands-up	jump
+hands-up	wave	jump	hands-up	wave	hands-up	hands-up	jump	hands-up	wave
+wave	hands-up	jump	hands-up	wave	wave	wave	hands-up	hands-up	wave

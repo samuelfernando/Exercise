@@ -26,8 +26,8 @@ public class PlayPatterns {
         try {
             count = startCount;
             String actionLine, simonLine;
-            BufferedReader actionReader = new BufferedReader(new FileReader("actions-out.txt"));
-            BufferedReader simonReader = new BufferedReader(new FileReader("rands-out.txt"));
+            BufferedReader actionReader = new BufferedReader(new FileReader("config/actions-out.txt"));
+            BufferedReader simonReader = new BufferedReader(new FileReader("config/rands-out.txt"));
             patterns = new ArrayList<PlayPattern>();
             int id =0;
             while ((actionLine=actionReader.readLine())!=null) {
