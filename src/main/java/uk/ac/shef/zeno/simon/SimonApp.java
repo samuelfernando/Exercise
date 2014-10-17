@@ -29,7 +29,7 @@ public class SimonApp {
     PlayState playState = PlayState.PLAY_START;
     Action currentAction;
     Random rand;
-    MuseumUtils mu;
+    SimonUtils mu;
     int score = 0;
     boolean simonSays;
     long lastRequest;
@@ -52,17 +52,17 @@ public class SimonApp {
         
         pendingGoodbyeSpoken = false;
         rand = new Random();
-        mu = new MuseumUtils(tracker, panel);
+        mu = new SimonUtils(tracker, panel);
         requestMade = false;
         try {
-            BufferedReader reader = new BufferedReader(new FileReader("saved-state.txt"));
+            BufferedReader reader = new BufferedReader(new FileReader("save/saved-state.txt"));
             String line;
             int lastPattern =0;
             while ((line=reader.readLine())!=null) {
                 lastPattern = Integer.parseInt(line);
             }
             patterns = new PlayPatterns(lastPattern+1);
-            saveState = new PrintStream("saved-state.txt");
+            saveState = new PrintStream("save/saved-state.txt");
         } catch (Exception ex) {
             Logger.getLogger(SimonApp.class.getName()).log(Level.SEVERE, null, ex);
         }

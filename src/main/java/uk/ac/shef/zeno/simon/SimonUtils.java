@@ -41,7 +41,7 @@ import org.mechio.api.speech.utils.DefaultSpeechJob;
  *
  * @author samf
  */
-public class MuseumUtils {
+public class SimonUtils {
 
     long lastSpeak;
     long lastUpdate;
@@ -70,7 +70,7 @@ public class MuseumUtils {
     float matSize;
 
     
-    public MuseumUtils() {
+    public SimonUtils() {
             HashMap<String, String> configs = ReadConfig.readConfig();
        
        robotSpeechPendingComplete = false;
@@ -112,7 +112,7 @@ public class MuseumUtils {
         }
     }
     
-    public MuseumUtils(UserTracker tracker, PositionPanel panel) {
+    public SimonUtils(UserTracker tracker, PositionPanel panel) {
         this();
         posPanel = panel;
         mTracker = tracker;
@@ -565,7 +565,7 @@ public class MuseumUtils {
     }
 
     public static void main(String args[]) {
-        MuseumUtils mu = new MuseumUtils();
+        SimonUtils mu = new SimonUtils();
         //mu.robotSpeak("simon says wave your hands");
        // mu.robotSpeak("simon says jump up and down");
         // mu.robotSpeak("simon says put your hands up!");

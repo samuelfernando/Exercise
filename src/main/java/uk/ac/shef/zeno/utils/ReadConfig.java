@@ -19,7 +19,7 @@ public class ReadConfig {
        
         try {
             BufferedReader br;
-            br = new BufferedReader(new FileReader("C:\\Users\\samf\\Documents\\NetBeansProjects\\zeno-r25-config.txt"));
+            br = new BufferedReader(new FileReader("C:\\Users\\samf\\Documents\\NetBeansProjects\\Exercise-R25\\config\\zeno-r25-config.txt"));
             String line;
             while ((line=br.readLine())!=null) {
                 System.out.println(line);

@@ -1,4 +1,3 @@
-/pom.xml
 /scentro-anim2.xml
 /NiTE2.jni.dll
 /OpenNI.ini
@@ -37,3 +36,4 @@
 /NiTE2/
 /vector-code/
 /lib/
+/save/

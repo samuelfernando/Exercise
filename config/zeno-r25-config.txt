@@ -1,0 +1,12 @@
+robot-active	false	
+ip	192.168.0.101
+wav-tts	tts
+face-expr	true
+kinect-robot-dist	740.0
+robot-user-dist	2000.0
+kinect-marker-dist	2130.0
+mat-front	1800
+mat-dimno-x	1
+mat-dimno-y	2
+mat-size	630.0
+kinect-recording	false
